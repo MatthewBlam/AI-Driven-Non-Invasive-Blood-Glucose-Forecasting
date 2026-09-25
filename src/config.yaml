@@ -1,0 +1,16 @@
+  # --- Preprocessing (how segments/windows are built) ---
+  history_steps: 12      # = frozen history below (12 x 5 min = 60 min of input)
+  horizon_steps: 6       # 6 / 12 / 24  ->  PH 30 / 60 / 120 min
+  target_mode: absolute  # absolute or delta
+  sensor: dexcom
+
+  # --- Frozen model config (Part 3 sweep, 2026-07-23, 11 seeds, results/sweep.csv) ---
+  # Selected on paired validation deltas: no alternative beat these beyond noise
+  # (max effect 0.12 mg/dL vs 0.77 split-to-split std). Do not change below this line.
+  hidden_size: 64
+  num_layers: 1
+  lr: 1e-3
+  history: 12
+  ph: 30
+  batch_size: 256
+  bidirectional: false
