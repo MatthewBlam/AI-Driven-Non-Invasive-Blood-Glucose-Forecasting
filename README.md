@@ -1,4 +1,4 @@
-![Poster](poster/AI-Driven-Non-Invasive-Blood-Glucose-Forecasting.png)
+![Poster](poster/SURP%20Poster.png)
 
 # AI-Driven-Non-Invasive-Blood-Glucose-Forecasting
 
