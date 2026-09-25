@@ -1,3 +1,5 @@
+![Poster](poster/AI-Driven-Non-Invasive-Blood-Glucose-Forecasting.png)
+
 # AI-Driven-Non-Invasive-Blood-Glucose-Forecasting
 
 Can a glucose forecaster do better if it knows about your last meal, or how
